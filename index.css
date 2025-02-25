@@ -1,0 +1,125 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: #EDF2F6;
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 175px;
+    font-family: 'Istok Web';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.content > ul > li {
+    margin-right: 23px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 25px;
+    background-color: #6A7EFC;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.avt {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.avt > p {
+    color:white;
+    text-align: center;
+    font-family: 'Istok Web';
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.content2 {
+    writing-mode: horizontal-tb; 
+    width: 700px; 
+    top: 375px;
+    position: absolute;
+    color:white;
+    text-align: center;
+    font-family: 'Istok Web';
+    font-weight: bold;
+    font-size: 32px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content3 {
+    width: 100%;
+    top: 480px;
+    position: absolute;
+    color:white;
+    text-align: center;
+    font-family: 'Istok Web';
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btnmore {
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    background-color: #FF5656;
+}
+
+.btnmore > p {
+    text-align: center;
+    font-family: 'Istok Web';
+    font-size: 15px;
+    color: white;
+    padding: 16px 28px;    
+    margin:  0px;
+}
+
+.line1 {
+    position: absolute;
+    top: 750px;
+    height: 1px;
+    width: 1000px;    
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(255, 255, 255);
+}
+
+.contantProject {
+    position: absolute;
+    top: 830px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-family: 'Istok Web';
+    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.titleProject {
+    font-size: 32px;
+}

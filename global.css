@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: #000;
+    width: 100%;
+    height: 1910px;
+}
+
+
+:root {
+    
+    /* Fonts */
+    --font-istok-web: 'Istok Web';
+    
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-xl: 20px;
+    --font-size-21xl: 40px;
+    
+    /* Colors */
+    --color-black: #000;
+    --color-gainsboro: #d9d9d9;
+    --color-white: #fff;
+    
+    /* Border radiuses */
+    --br-6xl: 25px;
+    
+}
