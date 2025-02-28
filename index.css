@@ -8,6 +8,7 @@
 
 }
 .content {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,31 +19,48 @@
     text-shadow: -1px 1px 5px rgba(121, 121, 121, 0.5);
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.content > ul > li {
-    margin-right: 11px;
-    margin-left: 11px;
-
+.content > ul > a {
+    text-decoration: none;
+    padding: 25px 10px;
+    color: #000;
 }
 
+.content > ul > a:hover {
+    background-color: #000000;
+    color: #EDF2F6;
+}
 
 .nav-button {
-    display: inline-block;
-    padding: 14px 20px;
+    display: flex;
     border-radius: 25px;
     background-color: #6A7EFC;
+    align-items: center;
 }
 
-a {
+.nav-button:hover {
+    background-color: #FF5656;
+}
+
+
+.nav-button > a {
+    padding: 15px 10px;
     text-decoration: none;
     color: #000;
 }
 
+.fas {
+    padding-right: 10px;
+}
 .avt {
     position: absolute;
     top: 150px;
@@ -191,6 +209,7 @@ a {
     font-family: 'Istok Web';
     font-size: 18px;
     text-shadow: -1px 1px 5px rgb(0 0 0 / 50%);
+    color: #000;
 }
 .iconsocial {
     position: relative;
@@ -204,8 +223,15 @@ a {
 }
 
 .ic-list > a > i{
+    color: #000;
     scale: 2;
 }
+
+.ic-list > a > i:hover{
+    color: #6A7EFC;
+    scale: 2;
+}
+
 
 .copyright {
     text-shadow: -1px 1px 5px rgb(0 0 0 / 50%);
